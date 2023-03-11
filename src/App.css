@@ -8,3 +8,14 @@ body{
 img{
   width: 81%;
 }
+@media only screen and (max-width: 800px) {
+  .App{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  img{
+    width: 221%;
+    margin: 15% -60%;
+  }
+}
